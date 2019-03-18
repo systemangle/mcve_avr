@@ -1,0 +1,1 @@
+cmake -G"Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DTOOLCHAIN_PATH=/home/user/arduino/hardware/tools/avr/bin/ -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchain/avr.cmake ../mcve 
